@@ -33,13 +33,13 @@ Once this project is substantial, then for the above mentioned 2 papers.
 * Japanese sentences(paragraphs) on Japanese wikipedia would the great material for marking with this ontology database.
 Then for example the phrase "植物学上の特徴"(from https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%B4) would be marked with ontology items:
 some of its words(if not every word) are associated with their corresponding ontology items.
-植物 is not needed to be associated with anything, though we can associated it to #10.
-学 to be associated with not#8
-植物学 to be associated with #6 and #9 with A="植物"
-上  to be associated with #4, and A="植物学"
-の  to be associated with #0 and #1, and A="林檎",B="特徴"
-特徴 to be associated with #7
-and the whole phrase to be associated with #5 with A="植物学", B="特徴", topic="林檎"
+* 植物 is not needed to be associated with anything, though we can associated it to #10.
+* 学 to be associated with not#8
+* 植物学 to be associated with #6 and #9 with A="植物"
+* 上  to be associated with #4 with A="植物学", and not#3
+* の  to be associated with #0 and #1, and A="林檎",B="特徴", and not#2
+* 特徴 to be associated with #7
+* and the whole phrase to be associated with #5 with A="植物学", B="特徴", topic="林檎"
 
 With this huge set of marking, the characteristics of the Japanese language would be fully covered. And with the knowledge of this coverage, then any other Japanese setence not in this set could be well understood.
 
