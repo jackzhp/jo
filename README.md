@@ -17,17 +17,17 @@ So the database should contain entities such as phonetic stuff, character(word),
 The pattern describes the ontological relation between other entities, though I have not choose how to represent each item(entity or relation).
 
 For examples, 
-*0 の: of possion.
-*1 pattern AのB: describes belonging relation: B belongs to A, A possesses B.
-*2 patern Aの: の terminates a setence, and the meaning of it in such cases.
-*3 Aの上で: means on the top of A
-*4 pattern A上: in the field of A
-*5 A上のB: means B is a property or (properties) of the topic, and B is in the field A
-*6 植物学: botany, plant biology, of pattern #10. We don't get into the meaning of it since that belongs to the ontology of biology. Here, we focus on the meta-ontology of biology, i.e. the language used to describe the study of biology. And in this case, the meta-ontology of biology is the ontology of Japanese language.
-*7 特徴: characteristics
-*8 学: the root of verb 学ぶ
-*9 A学: science of subject A.
-*10 植物: plants
+* 0 の: of possion.
+* 1 pattern AのB: describes belonging relation: B belongs to A, A possesses B.
+* 2 patern Aの: の terminates a setence, and the meaning of it in such cases.
+* 3 Aの上で: means on the top of A
+* 4 pattern A上: in the field of A
+* 5 A上のB: means B is a property or (properties) of the topic, and B is in the field A
+* 6 植物学: botany, plant biology, of pattern #10. We don't get into the meaning of it since that belongs to the ontology of biology. Here, we focus on the meta-ontology of biology, i.e. the language used to describe the study of biology. And in this case, the meta-ontology of biology is the ontology of Japanese language.
+* 7 特徴: characteristics
+* 8 学: the root of verb 学ぶ
+* 9 A学: science of subject A.
+* 10 植物: plants
 
 Once this project is substantial, then for the above mentioned 2 papers.
 * Japanese sentences(paragraphs) on Japanese wikipedia would the great material for marking with this ontology database.
