@@ -17,8 +17,8 @@ So the database should contain entities such as phonetic stuff, character(word),
 The pattern describes the ontological relation between other entities, though I have not choose how to represent each item(entity or relation).
 
 For examples, 
-* 0 の: of possion.
-* 1 pattern AのB: describes belonging relation: B belongs to A, A possesses B.
+0. の: of possion.
+1. pattern AのB: describes belonging relation: B belongs to A, A possesses B.
 * 2 patern Aの: の terminates a setence, and the meaning of it in such cases.
 * 3 Aの上で: means on the top of A
 * 4 pattern A上: in the field of A
