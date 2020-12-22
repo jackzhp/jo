@@ -12,3 +12,8 @@ Please check wiki page for the reason why why this repository exists.
 
 
 If you have any thought, please leave them as issues or wiki pages.
+
+
+related projects:
+
+* https://github.com/emorynlp/nlp4j
