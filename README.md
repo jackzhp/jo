@@ -17,3 +17,4 @@ If you have any thought, please leave them as issues or wiki pages.
 related projects:
 
 * https://github.com/emorynlp/nlp4j
+* https://towardsdatascience.com/linguistic-rule-writing-for-nlp-ml-64d9af824ee8
