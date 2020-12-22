@@ -1,5 +1,7 @@
 The ontology of human being's daily life on earth.
 
+The field can be described by many different language, though historically it is described by human natural languages.
+
 
 why this repository?
 
