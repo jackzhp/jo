@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Integers(Teach AI understand integer with natural
+	language)</title>
+</head>
+<body>
+
+
+	why this?
+
+	<ul>
+		<li>reason 1 as mentioned in "[[The first objective of NLP]]"
+			page.</li>
+		<li>human understands computer's language, so we can instruct a
+			computer to do whatever we want. This project is aimed to require a
+			computer to understand human's language through knowledge graph or
+			some kind of knowledge representation as an intermediate. why not to
+			require the computer to understand human's language directly but
+			through a normalized knowledge representation? If we require the
+			computer to understand a human's language, we have no idea whether
+			the computer really understands it. With the unambiguous formalized
+			knowledge representation, we hope both computer and human can
+			understand. And we, as human being, can request the computer to
+			output the knowledge representation, so we can check whether the
+			computer really understand the human's language. </br> Between human's
+			language and the normalized knowledge representation, there are some
+			ambiguity. one human sentence might have several different meanings
+			while each of them can be represented formally. From human's language
+			to the formalized knowledge representation, it should be easy for
+			human to check its validity and its completeness. But after the
+			normalized knowledge representation, even ambiguity is needed, will
+			be part of the computing model.
+		</li>
+	</ul>
+
+	<h3>Tasks</h3>
+	Though I still don't know how to represent the related knowledge
+	properly, I started to expect the computer AI can master that knowledge
+	and interact with a human through natural language such as English or
+	Japanese.
+
+	<ol>
+		<li>AI gets the knowledge through natural language such as
+			Japanese. the result of this step is the formalized knowledge
+			representation. Right now, I will skip this step, by manually
+			construct knowledge representation for the AI.
+		<li>How can AI master that knowledge? in a simple DB. I will
+			manually maintain a simple DB. this is current focus.
+		<li>How can AI understand a question(represented with formal
+			representation or with Japanese)? At present, hardwire the question
+			directly.
+		<li>with that knowledge, how can AI represent what it knows for a
+			specific question? hardwire it for temp.
+	</ol>
+	Given the focus is the core of the 2nd point, why do I have the 3rd and
+	the 4th? Only through relevant application, we can see whether the
+	knowledge representation is appropriate.
+
+
+	<h2>how to represent related knowledge?</h2>
+	Let's try with ontology. what is integer? ClassInteger: next, previous,
+	isEven, isOdd, isPrime EntityInteger: Number system: binary, decimal,
+	octal, etc. IntegerAdd, IntegerSub, IntegerMultiply, IntegerDivide,
+	IntegerMod, IntegerPower, ReverseOperation prime or not prime, even or
+	odd, what is twin primes? for example, Entity: Integer, prime integer,
+	composite, even integer, odd integer, algorithm to determine a number
+	is a prime.
+	<ul>
+		<li>relation of 2: compare 2 number a <=> b %(n)
+		<li>relation of 4: a= m*n + b <l i> relat ion of an equation:
+			sequentially test. 
+	</ul>
+
+	algorithm:
+	<ul>
+		<li>add,
+		<li>sub,
+		<li>multiply,
+		<li>divide,
+		<li>mod
+	</ul>
+	all these calculation is easy for a computer, but it does it
+	unconsciously, so it is not that easy for the computer to discuss this
+	with a human. concept and instance
+
+	<p>
+		One thing: the AI can does a complicate prime test. We human generate
+		an integer example. <br /> another thing: the AI has the retrospect
+		ability to tell how it is done. we human tell how the integer is
+		generated.
+	</p>
+
+	<h3>Questions for AI:</h3>
+
+
+	<ol>
+		<li>"how to determine a number is even?", the computer should
+			give meaningful response(a knowledge representation in some
+			language).
+		<li>"how to detemine a number is prime?" .....
+		<li>please give an example of integer, the AI use generator to
+			produce one. Here, the AI does not have to tell how to generate the
+			one. not larger than 100.
+		<li>Do you know what a prime is? the AI should check its
+			knowledge base, then respond.
+		<li>what is an integer? the AI should respond give meaningful
+			response(a knowledge representation in some language).
+		<li>is 6 dividable by 3?
+		<li>to discuss the problem 1+2+...+100=?
+		<li>to discuss different method to do multiplication: Karatsuba
+			multiplication, Toom–Cook multiplication, etc.
+	</ol>
+
+
+
+
+</body>
+</html>
