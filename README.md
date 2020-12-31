@@ -19,3 +19,28 @@ related projects:
 * https://github.com/emorynlp/nlp4j
 * https://towardsdatascience.com/linguistic-rule-writing-for-nlp-ml-64d9af824ee8
 * https://pj.ninjal.ac.jp/corpus_center/bccwj/en/integration.html
+
+Still too complicated, so now I think I just focus on integer related knowledge: to discuss integer with computer(treat it as a AI human).
+
+what is integer?
+prime or not prime, even or odd, what is twin primes?
+for example, 
+
+Ask the question "how to determine a number is even?", the computer should give meaningful response(a knowledge representation in some language).
+Ask the question "how to detemine a number is prime?" .....
+Question: please give an example of integer, the AI use generator to produce one. Here, the AI does not have to tell how to generate the one.
+         not larger than 100.
+Question: Do you know what a prime is? the AI should check its knowledge base, then respond.
+Question: what is an integer? the AI should respond give meaningful response(a knowledge representation in some language).
+
+
+Entity: Integer, prime integer, composite, even integer, odd integer, algorithm to determine a number is a prime. 
+relation of 2: compare 2 number  a <=> b 
+relation of 3: a = m*n     a ==b %(n)
+relation of 4:  a= m*n + b
+relation of an equation:
+algorithm: add, sub, multiply, divide, mod
+concept and instance
+
+One thing: the AI can does a complicate prime test. We human generate an integer example.
+another thing: the AI has the retrospect ability to tell how it is done. we human tell how the integer is generated.
