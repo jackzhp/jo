@@ -35,12 +35,21 @@ Question: what is an integer? the AI should respond give meaningful response(a k
 
 
 Entity: Integer, prime integer, composite, even integer, odd integer, algorithm to determine a number is a prime. 
-relation of 2: compare 2 number  a <=> b 
-relation of 3: a = m*n     a ==b %(n)
-relation of 4:  a= m*n + b
-relation of an equation:
-algorithm: add, sub, multiply, divide, mod
+# relation of 2: compare 2 number  a <=> b 
+# relation of 3: a = m*n     a ==b %(n)
+# relation of 4:  a= m*n + b
+# relation of an equation:
+
+algorithm: 
+* add, 
+* sub, 
+* multiply, 
+* divide, 
+* mod
+all these calculation is easy for a computer, but not that easy for the computer to discuss this with a human.
+
 concept and instance
 
 One thing: the AI can does a complicate prime test. We human generate an integer example.
+
 another thing: the AI has the retrospect ability to tell how it is done. we human tell how the integer is generated.
