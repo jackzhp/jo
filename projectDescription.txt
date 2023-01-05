@@ -1,0 +1,29 @@
+
+From a simpler and concrete point of view, this project is trying to maintain a database(constructing is the intial step).
+
+This is a database of daily life knowledge. To be more specific and oversimplified, it is a dictionary.
+And because multiple languages are involved, so to some extent, it is a rule based translator.
+
+Let's first focus on Tagalog, English, Japanese, (and maybe Chinese), I guess it can be adapted to other languages as well.
+
+Knowledge presentation for:
+  words with their meanings and usages, not just about writing system, but also the audio.
+  regular sentence structures and idomatic expressions
+  we don't look for perfection, but for progress.
+  we don't look for completeness, but for some concrete and reliable examples.  
+  we believe, in the domain of the daily life, the knowledges even the abstract concepts are enumerable.
+
+
+And the representation of knowledges are for human to read, to update, to dispute, and to refute.
+
+For a given a dispute, we will represent the dispute with their support information.
+
+
+artithecture
+
+For the back end: I would hope to use a framework with rust. but we can just use java, even javascript.
+  For database, we can use traditional database, or NoSeq DB, or just json file.
+For the front end: just HTML + javascript. any framework is ok for me, Vue? or nothing. depends on what the team member is capable of doing it.
+
+If you are interested in working on this. please contact jackiszhp@gmail.com
+
