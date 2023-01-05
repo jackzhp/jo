@@ -21,17 +21,22 @@ And the representation of knowledges are for human to read, to update, to disput
 For a given a dispute, we will represent the dispute with their support information.
 
 
-artithecture
+Artithecture
 
 For the back end: I would hope to use a framework with rust such as Rocket(https://rocket.rs/). but we can just use java, even javascript.
   For database, we can use traditional database, or NoSeq DB, or just json file.
 For the front end: just HTML + javascript. any framework is ok for me, Vue? or nothing. depends on what the team member is capable of doing it.
 
+The size of the team:
+  At least 4 members, 2 for the backend and 2 for the front end. 
+  
 If you are interested in working on this. please contact jackiszhp@gmail.com
+
 
 References
 # rules based translation requires a good dictionary: https://en.wikipedia.org/wiki/Rule-based_machine_translation
 # similar projects:
 ## Arabic Ontology: https://en.wikipedia.org/wiki/Arabic_Ontology 
-## WordNet
+## WordNet: https://wordnet.princeton.edu/
+## Jisho: https://jisho.org/
 ## Wiktionary: https://en.wiktionary.org/wiki/Japanese
