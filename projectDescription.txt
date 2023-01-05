@@ -23,13 +23,16 @@ For a given a dispute, we will represent the dispute with their support informat
 
 Artithecture
 
-For the back end: I would hope to use a framework with rust such as Rocket(https://rocket.rs/). but we can just use java, even javascript.
+For the back end: I would hope to use a framework with rust such as Rocket(https://rocket.rs/ or other see https://github.com/flosse/rust-web-framework-comparison). but we can just use java, even javascript.
   For database, we can use traditional database, or NoSeq DB, or just json file.
 For the front end: just HTML + javascript. any framework is ok for me, Vue? or nothing. depends on what the team member is capable of doing it.
 
 The size of the team:
   At least 4 members, 2 for the backend and 2 for the front end. 
   
+Ways of Collaboration
+   Work remote through github
+
 If you are interested in working on this. please contact jackiszhp@gmail.com
 
 
