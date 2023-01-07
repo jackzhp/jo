@@ -9,7 +9,7 @@ And because multiple languages are involved, so to some extent, it is a rule bas
 Let's first focus on Tagalog, English, Japanese, (and maybe Chinese), I guess it can be adapted to other languages as well.
 
 Knowledge presentation for:
-  words with their meanings and usages, not just about writing system, but also the audio.
+  words with their meanings and usages, not just about writing system, but also the phonetics(audio).
   regular sentence structures and idomatic expressions, and for each of them, many different kinds of explainations can be attached to it.
   we don't look for perfection, but for progress.
   we don't look for completeness, but for some concrete and reliable examples.  
